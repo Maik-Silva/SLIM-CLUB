@@ -2,13 +2,12 @@
 
 export const mockData = {
   hero: {
-    headline: "Transforme Seu Corpo e Sua Rotina com a Plataforma Fitness Mais Completa do Brasil",
+    headline: "Sua comunidade de emagrecimento. A única comunidade que se conecta 100% com você",
     subtitle: "Treinos personalizados para casa ou academia, do iniciante ao avançado. Resultados reais em semanas!",
     ctaText: "QUERO COMEÇAR AGORA E TRANSFORMAR MEU CORPO!",
-    ctaLink: "[LINK DO CHECKOUT AQUI]",
+    ctaLink: "https://kiwify.app/aOR362A",
     stats: [
-      { value: "50k+", label: "Alunos Transformados" },
-      { value: "1000+", label: "Treinos Disponíveis" },
+      { value: "50+", label: "Alunos Transformados" },
       { value: "98%", label: "Taxa de Satisfação" }
     ]
   },
@@ -16,24 +15,20 @@ export const mockData = {
   benefits: [
     {
       title: "Treinos para Casa e Academia",
-      description: "Biblioteca completa com mais de 1000 treinos renovados mensalmente. Escolha treinar onde preferir!",
+      description: "Mais do que um plano: um movimento de pessoas transformando corpo e mente juntas.",
       icon: "dumbbell"
     },
     {
       title: "Fichas de Treino Editáveis",
-      description: "Personalize seus treinos de acordo com seus objetivos. Ajuste séries, repetições e cargas.",
+      description: "Treinos de acordo com seus objetivos. Ajustes de séries, repetições e cargas.",
       icon: "clipboard"
     },
     {
       title: "Cardápios Alimentares Completos",
-      description: "Planos nutricionais elaborados por especialistas. Receitas saudáveis e deliciosas para cada objetivo.",
+      description: "Planos nutricionais elaborados por especialista. Receitas saudáveis e deliciosas para cada objetivo.",
       icon: "utensils"
     },
-    {
-      title: "Aulas Extras Premium",
-      description: "Yoga, Pilates, Meditação, Alongamento e muito mais. Conteúdo exclusivo com especialistas.",
-      icon: "sparkles"
-    },
+    
     {
       title: "Suporte Humano Direto",
       description: "Tire suas dúvidas com nossa equipe especializada. Atendimento humanizado todos os dias.",
