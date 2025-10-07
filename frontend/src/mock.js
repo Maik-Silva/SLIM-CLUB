@@ -7,63 +7,82 @@ export const mockData = {
     ctaText: "QUERO COMEÇAR AGORA E TRANSFORMAR MEU CORPO!",
     ctaLink: "https://kiwify.app/aOR362A",
     stats: [
-      { value: "50+", label: "Alunos Transformados" },
+      { value: "Transformações acontecendo diariamente", label: " },
       { value: "98%", label: "Taxa de Satisfação" }
     ]
   },
 
   benefits: [
-    {
-      title: "Treinos para Casa e Academia",
-      description: "Mais do que um plano: um movimento de pessoas transformando corpo e mente juntas.",
-      icon: "dumbbell"
-    },
-    {
-      title: "Fichas de Treino Editáveis",
-      description: "Treinos de acordo com seus objetivos. Ajustes de séries, repetições e cargas.",
-      icon: "clipboard"
-    },
-    {
-      title: "Cardápios Alimentares Completos",
-      description: "Planos nutricionais elaborados por especialista. Receitas saudáveis e deliciosas para cada objetivo.",
-      icon: "utensils"
-    },
-    
-    {
-      title: "Suporte Humano Direto",
-      description: "Tire suas dúvidas com nossa equipe especializada. Atendimento humanizado todos os dias.",
-      icon: "headphones"
-    },
-    {
-      title: "Garantia de 7 Dias",
-      description: "Não gostou? Devolvemos 100% do seu dinheiro sem burocracia. Risco zero para você!",
-      icon: "shield"
-    }
-  ],
+  {
+    title: "A Slim Club Vai Além",
+    description: "A Slim Club vai muito além de uma plataforma de treinos prontos. É uma verdadeira comunidade de emagrecimento. Conheça nossos diferenciais.",
+    icon: "Users" // ou outro ícone de destaque, como "Star"
+  },
+  {
+    title: "Comunidade Engajada",
+    description: "Comunidade 100% engajada no WhatsApp com mulheres com mesmo propósito.",
+    icon: "Users"
+  },
+  {
+    title: "Aulas Presenciais",
+    description: "Aulas e esportes presenciais a cada 15 dias para te manter ativa e vibrante. Emagrecer não precisa ser chato.",
+    icon: "Activity"
+  },
+  {
+    title: "Treino Personalizado",
+    description: "Treine onde você quiser, com treinos ajustados individualmente e trocas mensais.",
+    icon: "Repeat"
+  },
+  {
+    title: "Treinos para Dias Corridos",
+    description: "Treinos adaptados para encaixar nos seus dias corridos, sem perder resultados.",
+    icon: "Clock"
+  },
+  {
+    title: "Treinos Aceleradores",
+    description: "Treinos aceleradores de resultado - queime 3x mais em menos tempo.",
+    icon: "Zap"
+  },
+  {
+    title: "Cardápios Extras",
+    description: "Cardápios extras para os dias que exagerou na comida.",
+    icon: "Food"
+  },
+  {
+    title: "Alimentação Descomplicada",
+    description: "Protocolo alimentar descomplicado e barato, ajustado para você.",
+    icon: "Utensils"
+  },
+  {
+    title: "Engajamento com Premiação",
+    description: "Sistema de pontuação por engajamento nos desafios e atividades do calendário, com premiação para a melhor do mês.",
+    icon: "Award"
+  },
+  {
+    title: "Bonificação & Evolução",
+    description: "Bonificação com prêmio exclusivo por peso perdido e subida de nível na escala elaborada para você se manter sempre em constante evolução.",
+    icon: "TrendingUp"
+  },
+  {
+    title: "Suporte Humano",
+    description: "Tire suas dúvidas com nossa equipe especializada. Atendimento humanizado todos os dias.",
+    icon: "Headphones"
+  },
+  {
+    title: "Garantia de 7 Dias",
+    description: "Não gostou? Devolvemos 100% do seu dinheiro sem burocracia. Risco zero para você!",
+    icon: "Shield"
+  }
+]
 
   pricingPlans: [
-    {
-      name: "Mensal",
-      price: "97",
-      period: "/mês",
-      description: "Acesso total à plataforma",
-      features: [
-        "Todos os treinos liberados",
-        "Cardápios personalizados",
-        "Aulas extras premium",
-        "Suporte prioritário",
-        "Atualizações semanais"
-      ],
-      ctaText: "QUERO ESSE PLANO",
-      ctaLink: "[LINK DO CHECKOUT AQUI]",
-      highlighted: false
-    },
+  
     {
       name: "Trimestral",
-      price: "67",
+      price: "51,40",
       period: "/mês",
-      originalPrice: "97",
-      description: "Pague R$201 (3x de R$67)",
+      originalPrice: "497",
+      description: "Pague em até 12x",
       badge: "Mais Popular",
       features: [
         "Todos os treinos liberados",
@@ -74,48 +93,48 @@ export const mockData = {
         "E-book bônus grátis"
       ],
       ctaText: "GARANTIR DESCONTO",
-      ctaLink: "[LINK DO CHECKOUT AQUI]",
+      ctaLink: "https://pay.kiwify.com.br/aKPcdBB",
       highlighted: true
     },
     {
-      name: "Semestral",
-      price: "57",
+      name: "START",
+      price: "97",
       period: "/mês",
       originalPrice: "97",
-      description: "Pague R$342 (6x de R$57)",
+      description: "Pague em até 12x",
       badge: "Melhor Custo-Benefício",
       features: [
+        "Programa de emagrecimento 28 dias"
         "Todos os treinos liberados",
         "Cardápios personalizados",
-        "Aulas extras premium",
         "Suporte prioritário",
         "Atualizações semanais",
         "2 E-books bônus grátis",
         "Mentoria em grupo mensal"
       ],
       ctaText: "GARANTIR DESCONTO",
-      ctaLink: "[LINK DO CHECKOUT AQUI]",
+      ctaLink: "https://pay.kiwify.com.br/inpX2yF",
       highlighted: false
     },
     {
-      name: "Anual",
-      price: "47",
+      name: "Slim Club",
+      price: "113,11",
       period: "/mês",
-      originalPrice: "97",
-      description: "Pague R$564 (12x de R$47)",
+      originalPrice: "113,11",
+      description: "Pague R$997 (12x de R$113,11)",
       badge: "Maior Economia",
       features: [
-        "Todos os treinos liberados",
-        "Cardápios personalizados",
-        "Aulas extras premium",
+        "Lives semanais e mensais que irão te manter engajada",
+        "esafios surpresa para manter o processo divertido e empolgante",
+        "Aulas sobre mudança mental para alcançar uma mente magra",
         "Suporte prioritário VIP",
         "Atualizações semanais",
         "Pack completo de E-books",
         "Mentoria em grupo mensal",
-        "Consultoria individual trimestral"
+        "Aulas complementares para completar sua evolução"
       ],
       ctaText: "GARANTIR MAIOR DESCONTO",
-      ctaLink: "[LINK DO CHECKOUT AQUI]",
+      ctaLink: "https://pay.kiwify.com.br/nXbHkpf",
       highlighted: false
     }
   ],
