@@ -7,8 +7,9 @@ export const mockData = {
     ctaText: "QUERO COMEÇAR AGORA E TRANSFORMAR MEU CORPO!",
     ctaLink: "https://kiwify.app/aOR362A",
     stats: [
-      { value: "Transformações acontecendo diariamente", label: " },
-      { value: "98%", label: "Taxa de Satisfação" }
+      { value: "50k+", label: "Alunos Transformados" },
+       { value: "1000+", label: "Treinos Disponíveis" },
+       { value: "98%", label: "Taxa de Satisfação" }
     ]
   },
 
