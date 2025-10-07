@@ -140,28 +140,29 @@ export const mockData = {
   ],
 
   testimonials: [
-    {
-      name: "Maria Silva",
-      role: "Perdeu 18kg em 4 meses",
-      content: "O Slim Club mudou minha vida! Consegui perder peso treinando em casa, nos meus horários. A plataforma é super completa e o suporte é incrível!",
-      rating: 5,
-      image: "placeholder"
-    },
-    {
-      name: "João Santos",
-      role: "Ganhou 8kg de massa muscular",
-      content: "Treino há 3 anos, mas foi com o Slim Club que vi os melhores resultados. Os treinos são variados e os cardápios fazem toda diferença!",
-      rating: 5,
-      image: "placeholder"
-    },
-    {
-      name: "Ana Costa",
-      role: "Transformou o corpo em 6 meses",
-      content: "Sempre tive dificuldade com dietas, mas os cardápios do Slim Club são deliciosos e fáceis de seguir. Já eliminei 22kg e me sinto incrível!",
-      rating: 5,
-      image: "placeholder"
-    }
-  ],
+   [
+  {
+    "name": "Mayara Medeiros",
+    "role": "Perdeu 7kg e Elevou a Autoestima",
+    "content": "Estava desacreditada. Perdi **7kg em menos de 4 meses**. A Natália **elevou minha autoestima**, me ajudou a superar limites e a me reencontrar. Hoje cuido do meu corpo **por prazer**, não por obrigação!",
+    "rating": 5,
+    "image": "placeholder"
+  },
+  {
+    "name": "Danielle de Aguiar",
+    "role": "Foco, Profissionalismo e Resultados",
+    "content": "O treino é totalmente **direcionado** às minhas necessidades, trazendo resultados na saúde e estética. A Natália transmite **confiança e conhecimento**. Só tenho a agradecer o **cuidado e profissionalismo** que ela tem comigo!",
+    "rating": 5,
+    "image": "placeholder"
+  },
+  {
+    "name": "Alba",
+    "role": "Transformação de Dentro para Fora",
+    "content": "Tive uma **transformação de dentro para fora**. Aprendi a comer certo e a priorizar minha **saúde**. Você me ajudou psicologicamente a ganhar confiança. Me sinto **cuidada e importante** desde o início!",
+    "rating": 5,
+    "image": "placeholder"
+  }
+]
 
   faq: [
     {
@@ -199,17 +200,18 @@ export const mockData = {
   ],
 
   footer: {
-    description: "Slim Club - A plataforma fitness mais completa do Brasil. Transforme seu corpo, mude sua vida.",
+    description: "Slim Club - Sua comunidade de emagrecimento. A única comunidade que se conecta 100% com você.",
     links: [
       { text: "Termos de Uso", url: "#" },
       { text: "Política de Privacidade", url: "#" },
-      { text: "Contato", url: "#" },
-      { text: "FAQ", url: "#faq" }
+      { text: "Contato", url: "https://wa.me/5522998229474" },
+      { text: "FAQ", url: "#https://wa.me/5522992815628" }
     ],
     social: [
-      { platform: "Instagram", url: "#" },
-      { platform: "Facebook", url: "#" },
-      { platform: "YouTube", url: "#" }
+      { platform: "Instagram", url: "https://kiwify.app/aOR362A" },
+      { platform: "WhatsApp", url: "https://wa.me/5522998229474" },
+     
+  
     ],
     copyright: "© 2025 Slim Club. Todos os direitos reservados."
   }
