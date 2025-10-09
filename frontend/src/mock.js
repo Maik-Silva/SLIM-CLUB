@@ -74,8 +74,8 @@ export const mockData = {
     description: "Não gostou? Devolvemos 100% do seu dinheiro sem burocracia. Risco zero para você!",
     icon: "shield"
   },
-]
-
+],
+    
 
   pricingPlans: [
     {
