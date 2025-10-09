@@ -47,7 +47,7 @@ export const mockData = {
     {
       title: "Cardápios Extras",
       description: "Cardápios extras para os dias que exagerou na comida.",
-      icon: "Food"
+      icon: "coffee"
     },
     {
       title: "Alimentação Descomplicada",
