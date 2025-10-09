@@ -1,15 +1,32 @@
 import React from 'react';
 import { mockData } from '../mock';
-import { Dumbbell, ClipboardList, Utensils, Sparkles, Headphones, Shield } from 'lucide-react';
+import {
+  Users,
+  Activity,
+  Repeat,
+  Clock,
+  Zap,
+  Food,
+  Utensils,
+  Award,
+  TrendingUp,
+  Headphones,
+  Shield
+} from 'lucide-react';
 import { Card } from './ui/card';
 
 const iconMap = {
-  dumbbell: Dumbbell,
-  clipboard: ClipboardList,
-  utensils: Utensils,
-  sparkles: Sparkles,
-  headphones: Headphones,
-  shield: Shield
+  Users: Users,
+  Activity: Activity,
+  Repeat: Repeat,
+  Clock: Clock,
+  Zap: Zap,
+  Food: Food,
+  Utensils: Utensils,
+  Award: Award,
+  TrendingUp: TrendingUp,
+  Headphones: Headphones,
+  Shield: Shield
 };
 
 const Benefits = () => {
@@ -22,7 +39,10 @@ const Benefits = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             Tudo que Você Precisa em
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500"> Um Só Lugar</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500">
+              {' '}
+              Um Só Lugar
+            </span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
             Plataforma completa com recursos exclusivos para sua transformação
