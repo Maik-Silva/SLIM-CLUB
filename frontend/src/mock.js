@@ -7,9 +7,10 @@ export const mockData = {
     ctaText: "QUERO COMEÇAR AGORA E TRANSFORMAR MEU CORPO!",
     ctaLink: "https://kiwify.app/aOR362A",
     stats: [
-      { value: "50k+", label: "Alunos Transformados" },
-       { value: "1000+", label: "Treinos Disponíveis" },
-       { value: "98%", label: "Taxa de Satisfação" }
+        { value: "", label: "Transformações acontecendo diariamente" },
+        { value: "", label: "Mulheres reais, resultados reais" },
+        { value: "", label: "Comprometimento, motivação e evolução contínua" },
+      
     ]
   },
 
@@ -72,7 +73,7 @@ export const mockData = {
   {
     title: "Garantia de 7 Dias",
     description: "Não gostou? Devolvemos 100% do seu dinheiro sem burocracia. Risco zero para você!",
-    icon: "Shield"
+    icon: "Shield",
   }
 ]
 
@@ -105,7 +106,7 @@ export const mockData = {
       description: "Pague em até 12x",
       badge: "Melhor Custo-Benefício",
       features: [
-        "Programa de emagrecimento 28 dias"
+        "Programa de emagrecimento 28 dias",
         "Todos os treinos liberados",
         "Cardápios personalizados",
         "Suporte prioritário",
@@ -132,7 +133,7 @@ export const mockData = {
         "Atualizações semanais",
         "Pack completo de E-books",
         "Mentoria em grupo mensal",
-        "Aulas complementares para completar sua evolução"
+        "Aulas complementares para completar sua evolução",
       ],
       ctaText: "GARANTIR MAIOR DESCONTO",
       ctaLink: "https://pay.kiwify.com.br/nXbHkpf",
@@ -162,7 +163,7 @@ export const mockData = {
     "content": "Tive uma **transformação de dentro para fora**. Aprendi a comer certo e a priorizar minha **saúde**. Você me ajudou psicologicamente a ganhar confiança. Me sinto **cuidada e importante** desde o início!",
     "rating": 5,
     "image": "placeholder"
-  }
+  },
 ]
 
   faq: [
