@@ -78,31 +78,12 @@ export const mockData = {
 
   pricingPlans: [
     {
-      name: "Trimestral",
-      price: "51,40",
-      period: "/mês",
-      originalPrice: "497",
-      description: "Pague em até 12x",
-      badge: "Mais Popular",
-      features: [
-        "Todos os treinos liberados",
-        "Cardápios personalizados",
-        "Aulas extras premium",
-        "Suporte prioritário",
-        "Atualizações semanais",
-        "E-book bônus grátis"
-      ],
-      ctaText: "GARANTIR DESCONTO",
-      ctaLink: "https://pay.kiwify.com.br/aKPcdBB",
-      highlighted: true
-    },
-    {
       name: "Slim Club",
       price: "113,11",
       period: "/mês",
       originalPrice: "113,11",
       description: "Pague R$997 (12x de R$113,11)",
-      badge: "Maior Economia",
+      badge: "Plano Completo",
       features: [
         "Lives semanais e mensais que irão te manter engajada",
         "Desafios surpresa para manter o processo divertido e empolgante",
@@ -113,9 +94,9 @@ export const mockData = {
         "Mentoria em grupo mensal",
         "Aulas complementares para completar sua evolução"
       ],
-      ctaText: "GARANTIR MAIOR DESCONTO",
+      ctaText: "QUERO COMEÇAR AGORA",
       ctaLink: "https://pay.kiwify.com.br/nXbHkpf",
-      highlighted: false
+      highlighted: true
     }
   ],
 
