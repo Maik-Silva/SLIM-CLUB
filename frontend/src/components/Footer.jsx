@@ -18,7 +18,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <div className="text-2xl font-bold mb-4">
+            <div className="text-2xl font-bold mb-4" translate="no">
               <span className="text-white">Slim</span>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500"> Club</span>
             </div>
