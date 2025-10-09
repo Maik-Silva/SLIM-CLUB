@@ -27,10 +27,10 @@ const Hero = () => {
           </p>
 
           {/* CTA Button */}
-          <div className="mb-12">
+          <div className="mb-12 px-4 md:px-0">
             <Button
               onClick={() => window.location.href = hero.ctaLink}
-              className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white text-lg px-10 py-6 rounded-full font-bold transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-purple-500/50"
+              className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white text-sm md:text-lg px-6 md:px-10 py-4 md:py-6 rounded-full font-bold transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-purple-500/50 w-full md:w-auto max-w-full whitespace-normal leading-tight"
             >
               {hero.ctaText}
             </Button>
@@ -54,14 +54,19 @@ const Hero = () => {
             ))}
           </div>
 
-          {/* Visual Placeholder */}
-          <div className="mt-16 rounded-3xl overflow-hidden border-2 border-purple-500/30 bg-[#1a1a1a] p-8">
-            <div className="aspect-video bg-gradient-to-br from-purple-900/20 to-pink-900/20 rounded-2xl flex items-center justify-center">
-              <div className="text-center">
-                <div className="text-6xl mb-4">🎥</div>
-                <p className="text-gray-400 text-lg">Vídeo/Screenshot da Plataforma</p>
-                <p className="text-gray-500 text-sm mt-2">[Placeholder - Insira sua imagem/vídeo aqui]</p>
-              </div>
+          {/* YouTube Video */}
+          <div className="mt-16 rounded-3xl overflow-hidden border-2 border-purple-500/30 shadow-lg shadow-purple-500/20">
+            <div className="aspect-video bg-black">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/0xGNHKKD_jA"
+                title="Slim Club - Vídeo de Apresentação"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="w-full h-full"
+              ></iframe>
             </div>
           </div>
         </div>
