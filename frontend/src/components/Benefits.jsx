@@ -6,7 +6,7 @@ import {
   Repeat,
   Clock,
   Zap,
-  Food,
+  Coffee,
   Utensils,
   Award,
   TrendingUp,
@@ -21,7 +21,7 @@ const iconMap = {
   Repeat: Repeat,
   Clock: Clock,
   Zap: Zap,
-  Food: Food,
+  coffee: Coffee
   Utensils: Utensils,
   Award: Award,
   TrendingUp: TrendingUp,
