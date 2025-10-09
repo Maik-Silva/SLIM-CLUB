@@ -22,7 +22,7 @@ export const mockData = {
   {
     title: "Comunidade Engajada",
     description: "Comunidade 100% engajada no WhatsApp com mulheres com mesmo propósito.",
-    icon: "clipboard"
+    icon: "clipboardList"
   },
   {
     title: "Aulas Presenciais",
@@ -37,7 +37,7 @@ export const mockData = {
   {
     title: "Treinos para Dias Corridos",
     description: "Treinos adaptados para encaixar nos seus dias corridos, sem perder resultados.",
-    icon: "clipboard"
+    icon: "clipboardList"
   },
   {
     title: "Treinos Aceleradores",
