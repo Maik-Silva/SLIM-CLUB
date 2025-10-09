@@ -73,7 +73,7 @@ export const mockData = {
     title: "Garantia de 7 Dias",
     description: "Não gostou? Devolvemos 100% do seu dinheiro sem burocracia. Risco zero para você!",
     icon: "shield"
-  }
+  },
 ]
 
 
