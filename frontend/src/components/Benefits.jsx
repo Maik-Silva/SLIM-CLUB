@@ -1,32 +1,15 @@
 import React from 'react';
 import { mockData } from '../mock';
-import {
-  Users,
-  Activity,
-  Repeat,
-  Clock,
-  Zap,
-  Coffee,
-  Utensils,
-  Award,
-  TrendingUp,
-  Headphones,
-  Shield
-} from 'lucide-react';
+import { Dumbbell, ClipboardList, Utensils, Sparkles, Headphones, Shield } from 'lucide-react';
 import { Card } from './ui/card';
 
 const iconMap = {
-  Users: Users,
-  Activity: Activity,
-  Repeat: Repeat,
-  Clock: Clock,
-  Zap: Zap,
-  coffee: Coffee
-  Utensils: Utensils,
-  Award: Award,
-  TrendingUp: TrendingUp,
-  Headphones: Headphones,
-  Shield: Shield
+  dumbbell: Dumbbell,
+  clipboard: ClipboardList,
+  utensils: Utensils,
+  sparkles: Sparkles,
+  headphones: Headphones,
+  shield: Shield
 };
 
 const Benefits = () => {
@@ -38,9 +21,8 @@ const Benefits = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Tudo que Você Precisa em
+            Tudo que Você Precisa em{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500">
-              {' '}
               Um Só Lugar
             </span>
           </h2>
@@ -52,7 +34,13 @@ const Benefits = () => {
         {/* Benefits Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {benefits.map((benefit, index) => {
-            const IconComponent = iconMap[benefit.icon];
+            // Define um ícone válido do lucide-react
+            let iconKey = benefit.icon;
+            if (!iconMap[iconKey]) {
+              iconKey = 'dumbbell'; // fallback caso o ícone não exista
+            }
+            const IconComponent = iconMap[iconKey];
+
             return (
               <Card
                 key={index}
