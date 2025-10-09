@@ -3,13 +3,14 @@ import { mockData } from '../mock';
 import { Dumbbell, ClipboardList, Utensils, Sparkles, Headphones, Shield } from 'lucide-react';
 import { Card } from './ui/card';
 
+// Mapeamento dos ícones usados
 const iconMap = {
   dumbbell: Dumbbell,
   clipboard: ClipboardList,
   utensils: Utensils,
   sparkles: Sparkles,
   headphones: Headphones,
-  shield: Shield
+  shield: Shield,
 };
 
 const Benefits = () => {
@@ -18,7 +19,7 @@ const Benefits = () => {
   return (
     <section id="benefits" className="py-20 px-4 bg-[#0a0a0a]">
       <div className="container mx-auto">
-        {/* Section Header */}
+        {/* Cabeçalho da seção */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             Tudo que Você Precisa em{' '}
@@ -31,15 +32,15 @@ const Benefits = () => {
           </p>
         </div>
 
-        {/* Benefits Grid */}
+        {/* Grid dos benefícios */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {benefits.map((benefit, index) => {
-            // Define um ícone válido do lucide-react
-            let iconKey = benefit.icon;
-            if (!iconMap[iconKey]) {
-              iconKey = 'dumbbell'; // fallback caso o ícone não exista
-            }
-            const IconComponent = iconMap[iconKey];
+            // Verifica se o ícone existe no map, senão usa fallback
+            const iconKey = iconMap[benefit.icon] ? benefit.icon : 'dumbbell';
+            const IconComponent = iconMap[iconKey] || Dumbbell;
+
+            // Log temporário para identificar ícones inválidos
+            console.log('Renderizando ícone:', benefit.icon, '→', iconKey);
 
             return (
               <Card
