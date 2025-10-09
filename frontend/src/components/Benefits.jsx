@@ -9,7 +9,7 @@ const iconMap = {
   utensils: Utensils,
   sparkles: Sparkles,
   headphones: Headphones,
-  shield: Shield,
+  shield: Shield
 };
 
 const Benefits = () => {
@@ -22,10 +22,7 @@ const Benefits = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             Tudo que Você Precisa em
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500">
-              {' '}
-              Um Só Lugar
-            </span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500"> Um Só Lugar</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
             Plataforma completa com recursos exclusivos para sua transformação
@@ -35,9 +32,7 @@ const Benefits = () => {
         {/* Benefits Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {benefits.map((benefit, index) => {
-            // Fallback: se o ícone não for encontrado, usa Dumbbell
-            const IconComponent = iconMap[benefit.icon] || Dumbbell;
-
+            const IconComponent = iconMap[benefit.icon];
             return (
               <Card
                 key={index}
