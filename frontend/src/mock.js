@@ -1,4 +1,4 @@
-// Mock data atualizado para Slim Club Landing Page
+// Mock data para Slim Club Landing Page
 
 export const mockData = {
   hero: {
@@ -17,31 +17,31 @@ export const mockData = {
     {
       title: "A Slim Club Vai Além",
       description: "A Slim Club vai muito além de uma plataforma de treinos prontos. É uma verdadeira comunidade de emagrecimento. Conheça nossos diferenciais.",
-      icon: "dumbbell"
+      icon: "sparkles"
     },
     {
       title: "Comunidade Engajada",
       description: "Comunidade 100% engajada no WhatsApp com mulheres com mesmo propósito.",
-      icon: "clipboard"
+      icon: "headphones"
     },
     {
       title: "Aulas Presenciais",
       description: "Aulas e esportes presenciais a cada 15 dias para te manter ativa e vibrante. Emagrecer não precisa ser chato.",
-      icon: "utensils"
+      icon: "dumbbell"
     },
     {
       title: "Treino Personalizado",
       description: "Treine onde você quiser, com treinos ajustados individualmente e trocas mensais.",
-      icon: "dumbbell"
+      icon: "clipboard"
     },
     {
       title: "Treinos para Dias Corridos",
       description: "Treinos adaptados para encaixar nos seus dias corridos, sem perder resultados.",
-      icon: "clipboard"
+      icon: "dumbbell"
     },
     {
       title: "Treinos Aceleradores",
-      description: "Treinos aceleradores de resultado — queime 3x mais em menos tempo.",
+      description: "Treinos aceleradores de resultado - queime 3x mais em menos tempo.",
       icon: "sparkles"
     },
     {
@@ -184,11 +184,12 @@ export const mockData = {
       { text: "Termos de Uso", url: "#" },
       { text: "Política de Privacidade", url: "#" },
       { text: "Contato", url: "https://wa.me/5522998229474" },
-      { text: "FAQ", url: "https://wa.me/5522992815628" }
+      { text: "FAQ", url: "#faq" }
     ],
     social: [
       { platform: "Instagram", url: "https://kiwify.app/aOR362A" },
-      { platform: "WhatsApp", url: "https://wa.me/5522998229474" }
+      { platform: "Facebook", url: "https://wa.me/5522998229474" },
+      { platform: "YouTube", url: "https://wa.me/5522992815628" }
     ],
     copyright: "© 2025 Slim Club. Todos os direitos reservados."
   }
