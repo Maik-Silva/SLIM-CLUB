@@ -12,79 +12,83 @@ export const mockData = {
     ]
   },
 
-  benefits: [
-    {
-      title: "A Slim Club Vai Além",
-      description: "A Slim Club vai muito além de uma plataforma de treinos prontos. É uma verdadeira comunidade de emagrecimento. Conheça nossos diferenciais.",
-      icon: "Users" // ou outro ícone de destaque, como "Star"
-    },
-    
-    {
-      title: "Comunidade Engajada",
-      description: "Comunidade 100% engajada no WhatsApp com mulheres com mesmo propósito.",
-      icon: "Users"
-    },
-    
-    {
-      title: "Aulas Presenciais",
-      description: "Aulas e esportes presenciais a cada 15 dias para te manter ativa e vibrante. Emagrecer não precisa ser chato.",
-      icon: "Activity"
-    },
-    
-    {
-      title: "Treino Personalizado",
-      description: "Treine onde você quiser, com treinos ajustados individualmente e trocas mensais.",
-      icon: "Repeat"
-    },
-    
-    {
-      title: "Treinos para Dias Corridos",
-      description: "Treinos adaptados para encaixar nos seus dias corridos, sem perder resultados.",
-      icon: "Clock"
-    },
-    
-    {
-      title: "Treinos Aceleradores",
-      description: "Treinos aceleradores de resultado - queime 3x mais em menos tempo.",
-      icon: "Zap"
-    },
-    
-    {
-      title: "Cardápios Extras",
-      description: "Cardápios extras para os dias que exagerou na comida.",
-      icon: "Food"
-    },
-    
-    {
-      title: "Alimentação Descomplicada",
-      description: "Protocolo alimentar descomplicado e barato, ajustado para você.",
-      icon: "Utensils"
-    },
-    
-    {
-      title: "Engajamento com Premiação",
-      description: "Sistema de pontuação por engajamento nos desafios e atividades do calendário, com premiação para a melhor do mês.",
-      icon: "Award"
-    },
-    
-    {
-      title: "Bonificação & Evolução",
-      description: "Bonificação com prêmio exclusivo por peso perdido e subida de nível na escala elaborada para você se manter sempre em constante evolução.",
-      icon: "TrendingUp"
-    },
-    
-    {
-      title: "Suporte Humano",
-      description: "Tire suas dúvidas com nossa equipe especializada. Atendimento humanizado todos os dias.",
-      icon: "Headphones"
-    },
-    
-    {
-      title: "Garantia de 7 Dias",
-      description: "Não gostou? Devolvemos 100% do seu dinheiro sem burocracia. Risco zero para você!",
-      icon: "Shield"
-    }
-  ],
+ import {
+  Users,
+  Activity,
+  Repeat,
+  Clock,
+  Zap,
+  Coffee,      // caso queira um ícone diferente para "Cardápios Extras"
+  Utensils,
+  Award,
+  TrendingUp,
+  Headphones,
+  Shield
+} from "lucide-react";
+
+export const benefits = [
+  {
+    title: "A Slim Club Vai Além",
+    description: "A Slim Club vai muito além de uma plataforma de treinos prontos. É uma verdadeira comunidade de emagrecimento. Conheça nossos diferenciais.",
+    icon: Users
+  },
+  {
+    title: "Comunidade Engajada",
+    description: "Comunidade 100% engajada no WhatsApp com mulheres com mesmo propósito.",
+    icon: Users
+  },
+  {
+    title: "Aulas Presenciais",
+    description: "Aulas e esportes presenciais a cada 15 dias para te manter ativa e vibrante. Emagrecer não precisa ser chato.",
+    icon: Activity
+  },
+  {
+    title: "Treino Personalizado",
+    description: "Treine onde você quiser, com treinos ajustados individualmente e trocas mensais.",
+    icon: Repeat
+  },
+  {
+    title: "Treinos para Dias Corridos",
+    description: "Treinos adaptados para encaixar nos seus dias corridos, sem perder resultados.",
+    icon: Clock
+  },
+  {
+    title: "Treinos Aceleradores",
+    description: "Treinos aceleradores de resultado - queime 3x mais em menos tempo.",
+    icon: Zap
+  },
+  {
+    title: "Cardápios Extras",
+    description: "Cardápios extras para os dias que exagerou na comida.",
+    icon: Coffee
+  },
+  {
+    title: "Alimentação Descomplicada",
+    description: "Protocolo alimentar descomplicado e barato, ajustado para você.",
+    icon: Utensils
+  },
+  {
+    title: "Engajamento com Premiação",
+    description: "Sistema de pontuação por engajamento nos desafios e atividades do calendário, com premiação para a melhor do mês.",
+    icon: Award
+  },
+  {
+    title: "Bonificação & Evolução",
+    description: "Bonificação com prêmio exclusivo por peso perdido e subida de nível na escala elaborada para você se manter sempre em constante evolução.",
+    icon: TrendingUp
+  },
+  {
+    title: "Suporte Humano",
+    description: "Tire suas dúvidas com nossa equipe especializada. Atendimento humanizado todos os dias.",
+    icon: Headphones
+  },
+  {
+    title: "Garantia de 7 Dias",
+    description: "Não gostou? Devolvemos 100% do seu dinheiro sem burocracia. Risco zero para você!",
+    icon: Shield
+  }
+];
+
 
   pricingPlans: [
     {
