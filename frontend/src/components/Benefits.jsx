@@ -1,66 +1,79 @@
-import React from 'react';
-import { mockData } from '../mock';
-import { Dumbbell, ClipboardList, Utensils, Sparkles, Headphones, Shield } from 'lucide-react';
-import { Card } from './ui/card';
+"use client";
 
-// Mapeamento dos ícones usados
-const iconMap = {
+import { Dumbbell, ClipboardList, Utensils, Sparkles, Headphones, Shield } from "lucide-react";
+
+const iconsMap = {
   dumbbell: Dumbbell,
-  clipboard: ClipboardList,
+  clipboardList: ClipboardList,
   utensils: Utensils,
   sparkles: Sparkles,
   headphones: Headphones,
   shield: Shield,
 };
 
-const Benefits = () => {
-  const { benefits } = mockData;
+// Lista de benefícios
+const benefits = [
+  {
+    icon: "dumbbell",
+    title: "Treinos personalizados",
+    description: "Protocolos elaborados para diferentes níveis e objetivos.",
+  },
+  {
+    icon: "clipboardList",
+    title: "Planos prontos",
+    description: "Monte sua rotina com base em treinos pré-estruturados e eficazes.",
+  },
+  {
+    icon: "utensils",
+    title: "Orientação nutricional",
+    description: "Estratégias de alimentação para potencializar seus resultados.",
+  },
+  {
+    icon: "sparkles",
+    title: "Transformações reais",
+    description: "Resultados visíveis com acompanhamento e constância.",
+  },
+  {
+    icon: "headphones",
+    title: "Suporte e comunidade",
+    description: "Tenha acesso a uma comunidade que compartilha conquistas e motivações.",
+  },
+  {
+    icon: "shield",
+    title: "Profissionais qualificados",
+    description: "Equipe formada por especialistas em saúde, treino e nutrição.",
+  },
+];
 
+export default function Benefits() {
   return (
-    <section id="benefits" className="py-20 px-4 bg-[#0a0a0a]">
-      <div className="container mx-auto">
-        {/* Cabeçalho da seção */}
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Tudo que Você Precisa em{' '}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500">
-              Um Só Lugar
-            </span>
-          </h2>
-          <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Plataforma completa com recursos exclusivos para sua transformação
-          </p>
-        </div>
-
-        {/* Grid dos benefícios */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <section className="py-16 bg-white">
+      <div className="max-w-6xl mx-auto px-6 text-center">
+        <h2 className="text-3xl font-bold mb-12 text-green-700">
+          Benefícios da Comunidade
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
           {benefits.map((benefit, index) => {
-            // Verifica se o ícone existe no map, senão usa fallback
-            const iconKey = iconMap[benefit.icon] ? benefit.icon : 'dumbbell';
-            const IconComponent = iconMap[iconKey] || Dumbbell;
+            const Icon = iconsMap[benefit.icon];
 
-            // Log temporário para identificar ícones inválidos
-            console.log('Renderizando ícone:', benefit.icon, '→', iconKey);
+            // Fallback seguro: se o ícone não for encontrado, usa Dumbbell
+            const SafeIcon = Icon ? Icon : Dumbbell;
 
             return (
-              <Card
+              <div
                 key={index}
-                className="bg-[#1a1a1a] border border-purple-500/20 rounded-3xl p-8 hover:border-purple-500/40 transition-all duration-300 hover:transform hover:scale-105 hover:shadow-lg hover:shadow-purple-500/10"
+                className="flex flex-col items-center p-6 bg-gray-50 rounded-2xl shadow-md hover:shadow-lg transition-shadow"
               >
-                <div className="mb-6">
-                  <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-purple-500/20 to-pink-500/20 flex items-center justify-center">
-                    <IconComponent className="w-8 h-8 text-purple-400" />
-                  </div>
-                </div>
-                <h3 className="text-xl font-bold text-white mb-3">{benefit.title}</h3>
-                <p className="text-gray-400 leading-relaxed">{benefit.description}</p>
-              </Card>
+                <SafeIcon className="w-10 h-10 text-green-600 mb-4" />
+                <h3 className="text-lg font-semibold text-gray-800 mb-2">
+                  {benefit.title}
+                </h3>
+                <p className="text-gray-600 text-sm">{benefit.description}</p>
+              </div>
             );
           })}
         </div>
       </div>
     </section>
   );
-};
-
-export default Benefits;
+}
