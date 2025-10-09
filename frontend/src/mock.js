@@ -1,4 +1,4 @@
-// Mock data para Slim Club Landing Page
+// Mock data atualizado para Slim Club Landing Page
 
 export const mockData = {
   hero: {
@@ -14,68 +14,67 @@ export const mockData = {
   },
 
   benefits: [
-  {
-    title: "A Slim Club Vai Além",
-    description: "A Slim Club vai muito além de uma plataforma de treinos prontos. É uma verdadeira comunidade de emagrecimento. Conheça nossos diferenciais.",
-    icon: "dumbbell" // novo ícone
-  },
-  {
-    title: "Comunidade Engajada",
-    description: "Comunidade 100% engajada no WhatsApp com mulheres com mesmo propósito.",
-    icon: "clipboardList"
-  },
-  {
-    title: "Aulas Presenciais",
-    description: "Aulas e esportes presenciais a cada 15 dias para te manter ativa e vibrante. Emagrecer não precisa ser chato.",
-    icon: "utensils"
-  },
-  {
-    title: "Treino Personalizado",
-    description: "Treine onde você quiser, com treinos ajustados individualmente e trocas mensais.",
-    icon: "dumbbell"
-  },
-  {
-    title: "Treinos para Dias Corridos",
-    description: "Treinos adaptados para encaixar nos seus dias corridos, sem perder resultados.",
-    icon: "clipboardList"
-  },
-  {
-    title: "Treinos Aceleradores",
-    description: "Treinos aceleradores de resultado - queime 3x mais em menos tempo.",
-    icon: "sparkles"
-  },
-  {
-    title: "Cardápios Extras",
-    description: "Cardápios extras para os dias que exagerou na comida.",
-    icon: "utensils"
-  },
-  {
-    title: "Alimentação Descomplicada",
-    description: "Protocolo alimentar descomplicado e barato, ajustado para você.",
-    icon: "utensils"
-  },
-  {
-    title: "Engajamento com Premiação",
-    description: "Sistema de pontuação por engajamento nos desafios e atividades do calendário, com premiação para a melhor do mês.",
-    icon: "sparkles"
-  },
-  {
-    title: "Bonificação & Evolução",
-    description: "Bonificação com prêmio exclusivo por peso perdido e subida de nível na escala elaborada para você se manter sempre em constante evolução.",
-    icon: "sparkles"
-  },
-  {
-    title: "Suporte Humano",
-    description: "Tire suas dúvidas com nossa equipe especializada. Atendimento humanizado todos os dias.",
-    icon: "headphones"
-  },
-  {
-    title: "Garantia de 7 Dias",
-    description: "Não gostou? Devolvemos 100% do seu dinheiro sem burocracia. Risco zero para você!",
-    icon: "shield"
-  },
-],
-    
+    {
+      title: "A Slim Club Vai Além",
+      description: "A Slim Club vai muito além de uma plataforma de treinos prontos. É uma verdadeira comunidade de emagrecimento. Conheça nossos diferenciais.",
+      icon: "dumbbell"
+    },
+    {
+      title: "Comunidade Engajada",
+      description: "Comunidade 100% engajada no WhatsApp com mulheres com mesmo propósito.",
+      icon: "clipboard"
+    },
+    {
+      title: "Aulas Presenciais",
+      description: "Aulas e esportes presenciais a cada 15 dias para te manter ativa e vibrante. Emagrecer não precisa ser chato.",
+      icon: "utensils"
+    },
+    {
+      title: "Treino Personalizado",
+      description: "Treine onde você quiser, com treinos ajustados individualmente e trocas mensais.",
+      icon: "dumbbell"
+    },
+    {
+      title: "Treinos para Dias Corridos",
+      description: "Treinos adaptados para encaixar nos seus dias corridos, sem perder resultados.",
+      icon: "clipboard"
+    },
+    {
+      title: "Treinos Aceleradores",
+      description: "Treinos aceleradores de resultado — queime 3x mais em menos tempo.",
+      icon: "sparkles"
+    },
+    {
+      title: "Cardápios Extras",
+      description: "Cardápios extras para os dias que exagerou na comida.",
+      icon: "utensils"
+    },
+    {
+      title: "Alimentação Descomplicada",
+      description: "Protocolo alimentar descomplicado e barato, ajustado para você.",
+      icon: "utensils"
+    },
+    {
+      title: "Engajamento com Premiação",
+      description: "Sistema de pontuação por engajamento nos desafios e atividades do calendário, com premiação para a melhor do mês.",
+      icon: "sparkles"
+    },
+    {
+      title: "Bonificação & Evolução",
+      description: "Bonificação com prêmio exclusivo por peso perdido e subida de nível na escala elaborada para você se manter sempre em constante evolução.",
+      icon: "sparkles"
+    },
+    {
+      title: "Suporte Humano",
+      description: "Tire suas dúvidas com nossa equipe especializada. Atendimento humanizado todos os dias.",
+      icon: "headphones"
+    },
+    {
+      title: "Garantia de 7 Dias",
+      description: "Não gostou? Devolvemos 100% do seu dinheiro sem burocracia. Risco zero para você!",
+      icon: "shield"
+    }
+  ],
 
   pricingPlans: [
     {
@@ -124,21 +123,21 @@ export const mockData = {
     {
       name: "Mayara Medeiros",
       role: "Perdeu 7kg e Elevou a Autoestima",
-      content: "Estava desacreditada. Perdi **7kg em menos de 4 meses**. A Natália **elevou minha autoestima**, me ajudou a superar limites e a me reencontrar. Hoje cuido do meu corpo **por prazer**, não por obrigação!",
+      content: "Estava desacreditada. Perdi 7kg em menos de 4 meses. A Natália elevou minha autoestima, me ajudou a superar limites e a me reencontrar. Hoje cuido do meu corpo por prazer, não por obrigação!",
       rating: 5,
       image: "placeholder"
     },
     {
       name: "Danielle de Aguiar",
       role: "Foco, Profissionalismo e Resultados",
-      content: "O treino é totalmente **direcionado** às minhas necessidades, trazendo resultados na saúde e estética. A Natália transmite **confiança e conhecimento**. Só tenho a agradecer o **cuidado e profissionalismo** que ela tem comigo!",
+      content: "O treino é totalmente direcionado às minhas necessidades, trazendo resultados na saúde e estética. A Natália transmite confiança e conhecimento. Só tenho a agradecer o cuidado e profissionalismo que ela tem comigo!",
       rating: 5,
       image: "placeholder"
     },
     {
       name: "Alba",
       role: "Transformação de Dentro para Fora",
-      content: "Tive uma **transformação de dentro para fora**. Aprendi a comer certo e a priorizar minha **saúde**. Você me ajudou psicologicamente a ganhar confiança. Me sinto **cuidada e importante** desde o início!",
+      content: "Tive uma transformação de dentro para fora. Aprendi a comer certo e a priorizar minha saúde. Você me ajudou psicologicamente a ganhar confiança. Me sinto cuidada e importante desde o início!",
       rating: 5,
       image: "placeholder"
     }
@@ -185,7 +184,7 @@ export const mockData = {
       { text: "Termos de Uso", url: "#" },
       { text: "Política de Privacidade", url: "#" },
       { text: "Contato", url: "https://wa.me/5522998229474" },
-      { text: "FAQ", url: "#https://wa.me/5522992815628" }
+      { text: "FAQ", url: "https://wa.me/5522992815628" }
     ],
     social: [
       { platform: "Instagram", url: "https://kiwify.app/aOR362A" },
